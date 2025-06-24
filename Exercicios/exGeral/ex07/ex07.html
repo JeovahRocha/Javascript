@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ex07.css" />
+    <title>Validador de Formulário</title>
+  </head>
+  <body>
+    <h1>Formulario</h1>
+    <section class="container" id="Formulario">
+      <div class="form-box">
+        <form class="form">
+          <div class="form-container">
+            <input
+              type="text"
+              id="nome"
+              placeholder="Seu nome"
+              class="input"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="exemplo@hotmail.com"
+              class="input"
+            />
+            <input
+              type="password"
+              id="senha"
+              placeholder="Senha"
+              class="input"
+            />
+          </div>
+          <div id="Aqui">
+            <p id="nome1"></p>
+            <p id="nome2"></p>
+            <p id="nome3"></p>
+          </div>
+          <input
+            type="button"
+            value="Enviar"
+            class="button"
+            onclick="confere()"
+          />
+        </form>
+      </div>
+    </section>
+    <script src="ex07.js"></script>
+  </body>
+</html>

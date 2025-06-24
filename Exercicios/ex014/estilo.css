@@ -1,0 +1,37 @@
+body {
+  background-color: azure;
+  font: normal 15pt Arial;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  color: aliceblue;
+}
+
+section {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 1px 1px 5px;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+}
+
+div {
+  text-align: center;
+}
+
+.imagem {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.imagem:hover {
+  transform: scale(1.1);
+}

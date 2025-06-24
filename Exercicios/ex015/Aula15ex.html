@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+      <div id="anoNascimento">
+        <p>
+          Ano de Nascimento
+          <input
+            type="number"
+            name="anoNascimento1"
+            id="anoNascimento1"
+            placeholder="ex: 1990"
+            required
+          />
+        </p>
+        <p>
+          Sexo:
+          <input
+            id="Masculino"
+            type="radio"
+            name="Masculino-feminino"
+            value="Masculino"
+            checked
+          />
+          <label
+            >Masculino
+            <input
+              id="Feminino"
+              type="radio"
+              name="Masculino-feminino"
+              value="Feminino"
+            />
+            Feminino
+          </label>
+        </p>
+        <p>
+          <input type="button" value="Verificar" onclick="calcNascimento()" />
+        </p>
+      </div>
+      <div id="resultado"></div>
+      <p>Preencha os dados acima para ver o resultado</p>
+    </section>
+    <footer>
+      <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
