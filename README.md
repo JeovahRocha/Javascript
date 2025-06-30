@@ -1,2 +1,3 @@
 # Javascript
-Repositorio de atividade e praticas em JacaScript
+
+Repositorio de atividade e praticas em JavaScript
